@@ -1,14 +1,14 @@
-# Learning ROS1
+# Robotic Programming Class (Review and Demo)
 
-I am using WSL for Ubuntu 20-04 on Windows 11
+The goal of this repository is to save everything that I learnt from Robotic Programming class (time). 
 
-go to cmd
+We are mostly using ROS, so it is very interesting. 
 
-check to see if you have wsl or not
+I am using WSL for Ubuntu 20-04 on Windows 11. Alright, to set it up go to cmd and check to see if you have wsl or not.
 ```
 wsl
 ```
-update to wsl2
+update to wsl2 (check bing for how to update to version2 and set all linux distro to version, I forget, but AI have all the command.)
 ```
 wsl --update
 ```
@@ -20,18 +20,12 @@ check the distro that you have
 ```
 wsl --list
 ```
-check bing for how to update to version2 and set all linux distro to version, I forget, but AI have all the command. 
 
-
-
-
-## install ROS1 = Noetic from https://docs.ros.org/ 
-
-This is for learning and Reviewing ROS1. I will put everything in here. Basically everything about what I have learnt!
+## Install ROS1 = Noetic from https://docs.ros.org/ 
 
 ### ROS Basic concept
 
--> ROS master <-
+-> ROS master (roscore) <-
 
 <- Node -> Publishing -> Topic -> Callback -> Node -> subscribing ->
 
@@ -39,6 +33,7 @@ This is for learning and Reviewing ROS1. I will put everything in here. Basicall
 
 
 # Turtlesim_ws
+
 create ws
 ```
 mkdir -p turtlesim_ws/src
@@ -250,7 +245,8 @@ cd ros1_workspaces/turtlesim_ws/src/controller/script
 
 ```
 touch turtle_runningAround.py
-chmod +x turtle_runningAround.py
+chmod +x turtle_runningAround.py 
+ 
 ```
 inside the turtle_runningAround.py
 ```py
@@ -301,9 +297,17 @@ in starshape.py
 
 import rospy 
 from 
+
+# I don't have time to think about it yet :'(
 ```
-
-
+run in ws after source 
+```
+rosrun controller starshape.py
+```
+run in its dir
+```
+python3 starshape.py
+```
 
 # Turtlebot3_ws
 What is this? The goal is to make the Turtlebot3 run in circle and draw a starshape. To have Tutlebot3, you need to do the instruction from these pages:
@@ -316,14 +320,14 @@ create the workspace
 ```
 mkdir -p turtlebot3_ws/src
 ```
-go to turtlebot3/src
+go to turtlebot3_ws/src
 ```
 git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 ```
 cd to ws and catkin_make
 
 
-to test the turtlebot3
+to test the turtlebot3 by source devel/setup.bash and run this command in the ws
 ```
 export TURTLEBOT3_MODEL=burger 
 roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
@@ -332,10 +336,16 @@ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 
 ## Create pub and sub
 
-create a package
+Keep the test turtlebot3 running and check rostopic list, rostopic info (name), rosmsg show (name), rostopic echo (topic name). It is a way to find what kind of topic that can be used to create publisher and subscriber. 
+
+go to src to create a package
 ```
 catkin_create_pkg pubandsub rospy roscpp turtlebot3_gazebo geometry_msgs
 ```
+we add geomety_mgs beacuse we know there is a topic that we need to publish into
+
+### Create Pulisher
+
 cd to pubandsub to create a script dir
 
 in that turtlebot3_ws/src/pubandsub/script
@@ -343,16 +353,26 @@ in that turtlebot3_ws/src/pubandsub/script
 touch runIncircle.py
 chmod +x runIncircle.py
 ```
-in the runIncircle.py
+
+check information of the running nodes
+```
+rostopic list
+rostopic info (topic name)
+rosmsg show (topic types)
+rostopic echo (topic name)
+rqt --clear-config
+```
+
+in the runIncircle.py then catkin_make
 ```py
 #!/usr/bin/env python3
 
 import rospy
-from geomety_msgs.msg import Twist
+from geometry_msgs.msg import Twist
 
 if __name__ == "__main__":
-  rospy.init_node("run in circle")
-  rospi.loginfo("Node have been started.")
+  rospy.init_node("run_in_circle")
+  rospy.loginfo("Node have been started.")
 
   pub = rospy.Publisher("cmd_vel", Twist, queue_size=10)
 
@@ -362,12 +382,59 @@ if __name__ == "__main__":
     move_cmd = Twist()
     move_cmd.linear.x = 0.6
     move_cmd.angular.z = 0.9
-    pub.publish(msg)
+    pub.publish(move_cmd)
     rate.sleep()
+``` 
+to run this script, stay in ws, source devel/setup.bash
+```
+export TURTLEBOT3_MODEL=burger 
+rosrun pubandsub runIncircle.py
+ 
+```
+### Create Subscriber
+The goal is to print out the position of the turtlebot3 
 
+Go to /turtlebot3_ws/src/pubandsub/script
+```
+touch subscriber.py
+chmod +x subscriber.py 
+ 
+```
+check the information 
+```
+rostopic list, 
+rostopic info (topic name), 
+rosmsg show (topic info/type), 
+rostopic echo (topic name), 
+rqt --clear-config 
+  //to see plugin, inspection, Node graph
+```
+
+inside the subsriber.py I want to see the position of the turtlebot3
+```py
+#!/usr/bin/env python3
+
+import rospy
+from 
+# no time 
+```
+
+```
+rosrun pubandsub subscriber.py
+```
+or inside its dir
+```
+python3 subscriber.py
 ```
 
 
-
 # Smb_ws
+The goal is to create launch files and practice the ros concept
+
+
+
+
+# URDF_Gazebo_Sensors_Controller-Pub-Sub_ws
+
+# MOVEIT 
 
