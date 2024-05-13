@@ -1,6 +1,29 @@
 # Learning ROS1
 
-I am using WSL for Ubuntu 20-04. 
+I am using WSL for Ubuntu 20-04 on Windows 11
+
+go to cmd
+
+check to see if you have wsl or not
+```
+wsl
+```
+update to wsl2
+```
+wsl --update
+```
+check for all available distro 
+```
+wsl.exe --list --online
+```
+check the distro that you have
+```
+wsl --list
+```
+check bing for how to update to version2 and set all linux distro to version, I forget, but AI have all the command. 
+
+
+
 
 ## install ROS1 = Noetic from https://docs.ros.org/ 
 
@@ -185,7 +208,7 @@ Create the publisher using the geometry_msg.msgs import Pose. Which means I have
 
 The topic shows that x and z are changing only because only linear and angular are the property of that turtlesim
 ```
-cd /ros1_workspaces/turtlesim_ws/src/controller/script
+cd ros1_workspaces/turtlesim_ws/src/controller/script
 ```
 to create the script for showing the turtle position
 ```
@@ -194,7 +217,7 @@ chmod +x pose_subscriber.py
 ```
 inside the script
 ```py
-#!/user/bin/env python3
+#!/usr/bin/env python3
 
 import rospy 
 from turtlesim.msg import Pose 
@@ -202,7 +225,7 @@ from turtlesim.msg import Pose
 def pose_callback(msg: Pose):
   rospy.loginfo("(" + str(msg.x) + ", " + str(msg.y) + ")")
 
-if __name__ = "__main__": 
+if __name__ == "__main__": 
   rospy.init_node("turtlesim_pose_subscriber")
 
   sub = rospy.Subscriber("/turtle1/pose", Pose, callback=pose_callback)
@@ -222,8 +245,7 @@ rosrun controller pose_subscriber.py
 How to do it? 
 
 ```
-cd /ros1_workspaces/turtlesim_ws/src/controller/script
-
+cd ros1_workspaces/turtlesim_ws/src/controller/script
 ```
 
 ```
@@ -236,19 +258,19 @@ inside the turtle_runningAround.py
 
 import rospy
 from turtlesim.msg import Pose
-from geometry_msg.msg import Twist
+from geometry_msgs.msg import Twist
 
 def pose_callback(pose: Pose):
   cmd = Twist()
-  if pose.x  > 9.0 or pose.x < 2.0 or pose.y > 9.0 or pose.z < 2.0:
+  if pose.x  > 9.0 or pose.x < 2.0 or pose.y > 9.0 or pose.y < 2.0:
     cmd.linear.x = 1.0
     cmd.angular.z = 1.4
-  else 
+  else:
     cmd.linear.x = 5.0
     cmd.angular.z = 0.0
   pub.publish(cmd)
 
-if __name__ = "__main__":
+if __name__ == "__main__":
   rospy.init_node("turtle_runningAround")
 
   pub = rospy.Publisher("/turtle1/cmd_vel", Twist, queue_size=10)
@@ -262,23 +284,90 @@ cd to turtlesim_ws, source devel/setup.bash
 ```
 rosrun controller turtle_runningAround.py
 ```
+or go to src/controller/script
+```
+python3 turtlesim_runningAround.py
+```
+
+#### make turtlesim to move in starshape: 
+
+```
+touch starshape.py
+chmod +x starshape.py
+```
+in starshape.py
+```py
+#!/usr/bin/env python3
+
+import rospy 
+from 
+```
 
 
 
 # Turtlebot3_ws
+What is this? The goal is to make the Turtlebot3 run in circle and draw a starshape. To have Tutlebot3, you need to do the instruction from these pages:
+
+1. this [Get started choose Noetic](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
+
+2. this [Simulation set up choose Neotic](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
+
+create the workspace 
+```
+mkdir -p turtlebot3_ws/src
+```
+go to turtlebot3/src
+```
+git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+```
+cd to ws and catkin_make
+
+
+to test the turtlebot3
+```
+export TURTLEBOT3_MODEL=burger 
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+ 
+```
+
+## Create pub and sub
+
+create a package
+```
+catkin_create_pkg pubandsub rospy roscpp turtlebot3_gazebo geometry_msgs
+```
+cd to pubandsub to create a script dir
+
+in that turtlebot3_ws/src/pubandsub/script
+```
+touch runIncircle.py
+chmod +x runIncircle.py
+```
+in the runIncircle.py
+```py
+#!/usr/bin/env python3
+
+import rospy
+from geomety_msgs.msg import Twist
+
+if __name__ == "__main__":
+  rospy.init_node("run in circle")
+  rospi.loginfo("Node have been started.")
+
+  pub = rospy.Publisher("cmd_vel", Twist, queue_size=10)
+
+  rate = rospy.Rate(2)
+
+  while not rospy.is_shutdown():
+    move_cmd = Twist()
+    move_cmd.linear.x = 0.6
+    move_cmd.angular.z = 0.9
+    pub.publish(msg)
+    rate.sleep()
+
+```
 
 
 
 # Smb_ws
 
-```
-
-```
-
-```
-
-```
-
-```
-
-```
