@@ -295,6 +295,7 @@ touch starshape.py
 chmod +x starshape.py
 ```
 in starshape.py
+
 ```py
 #!/usr/bin/env python3
 
@@ -636,9 +637,13 @@ python3 teleop_twist_keyboard.py
 
 
 # URDF_Gazebo_Sensors_Controller-Pub-Sub_ws
-What is the requirement? This is the demostration that 
+What are the requirement? 
+create a URDF robot with 3-5 links
 
+1. first valuable resource [https://classic.gazebosim.org/tutorials]
+2. 
 
+I think I need to use solidworks and other software to help with this work. 
 
 
 # MOVEIT 
