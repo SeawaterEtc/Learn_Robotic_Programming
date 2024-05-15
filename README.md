@@ -427,14 +427,153 @@ or inside its dir
 python3 subscriber.py
 ```
 
+### Pub and Sub
+The goal is to create a publisher and subscriber to control the robot to run in star shape. 
 
-# Smb_ws
+Go to /turtlebot3_ws/src/pubandsub/script
+```
+touch starpath.py
+chmod +x starpath.py 
+ 
+```
+check the information 
+```
+rostopic list, 
+rostopic info (topic name), 
+rosmsg show (topic info/type), 
+rostopic echo (topic name), 
+rqt --clear-config 
+  //to see plugin, inspection, Node graph
+```
+
+inside the starpath.py I want the robot to run in star path
+```py
+#!/usr/bin/env python3
+
+import rospy
+from 
+# no time 
+```
+
+```
+rosrun pubandsub starpath.py
+```
+or inside its dir
+```
+python3 starpath.py
+```
+
+
+
+# Smb_ws ([s](https://github.com/NelsenEW/eth-zurich-solution?tab=readme-ov-file))
 The goal is to create launch files and practice the ros concept
+
+The material is from [this site section 1](https://rsl.ethz.ch/education-students/lectures/ros.html). 
+
+
+## Instructions from the exercise 
+
+### 1. Setup the SMB simulation: 
+
+" Download the smb_common zipped folder on the course website. Unzip it and place it in the ~/git folder. Navigate into ~/Workspaces/smb_ws/src and make a symlink. Compile the smb_gazebo package with catkin. "
+
+go to your desired dir and create the ws
+```
+mkdir -p smb_ws/src
+```
+
+If you don't want to download and upzip, just clone this
+``` 
+git clone https://github.com/NelsenEW/eth-zurich-solution
+
+``` 
+
+
+Download the zip and place it inside the ws's src. After download and place it inside src of the ws then unzip the file with: 
+```
+unzip smb_common.zip
+```
+
+
+
+then download missing depencies
+``` 
+sudo apt install -y ros-noetic-hector-gazebo-plugins \
+                    ros-noetic-velodyne \
+                    ros-noetic-velodyne-description \
+                    ros-noetic-velodyne-gazebo-plugins \
+                    ros-noetic-pointcloud-to-laserscan \
+                    ros-noetic-twist-mux
+```
+
+
+finally do catkin_make in the ws dir
+
+
+to test the simulations, stay inside the ws and source. The same process with roscore on different terminal. 
+```
+roslaunch smb_gazebo smb_gazebo.launch
+```
+
+### 2. Launch the simulation
+" with roslaunch and inspect the created nodes and their topics using (Lecture 1 Slides 11/12): 
+
+```
+rosnode list
+rostopic list
+rostopic echo [TOPIC]
+rostopic hz [TOPIC]
+rqt_graph: rqt --clear-config
+```
+"
+
+There is a rosmsg show (topic msg) missing, because we don't need to see it since we are not programming anything
+
+I am sure there are messages showing, but which one is useful? 
+
+
+
+### 3. Command a desired velocity
+to the robot from the terminal (rostopic pub [TOPIC]) (Lecture 1 Slide 13)
+
+
+On a different terminal write 
+```
+rostopic pub /cmd_vel geometry_msgs/Twist '[0.5,0,0]' '[0,0,0]'
+
+``` 
+
+
+
+### 4. Use teleop_twist_keyboard to control your robot using the keyboard.
+
+Find it online and compile it from source! Use git clone to clone the repository to the folder ~/git. (Lecture 1 Slides 22-26)
+
+
+``` 
+roslaunch smb_highlevel_controller smb_highlevel_controller.launch 
+``` 
+
+
+
+
+### 5. Write a launch file with the following content (Lecture 1 Slides 27-30):
+
+- smb simulation with a different world: Include smb_gazebo.launch file and change the world_file argument to a world from the directory /usr/share/gazebo-11/worlds (e.g. worlds/robocup14_spl_field.world). This might take a little while to load the first time. Note that the world_name is with respect to /usr/share/gazebo-11/
+
+The world file argument is hardcoded as follow: 
+
+``` 
+<arg name="world_file" value="/usr/share/gazebo-9/worlds/robocup14_spl_field.world"/>
+``` 
+
 
 
 
 
 # URDF_Gazebo_Sensors_Controller-Pub-Sub_ws
+
+
 
 # MOVEIT 
 
