@@ -131,11 +131,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ubuntu20-04/ros1_workspaces/smb_ws/build/gtest/cmake_install.cmake")
-  include("/home/ubuntu20-04/ros1_workspaces/smb_ws/build/eth-zurich-solution/teleop_twist_keyboard/cmake_install.cmake")
-  include("/home/ubuntu20-04/ros1_workspaces/smb_ws/build/eth-zurich-solution/smb_common_v2/smb_control/cmake_install.cmake")
-  include("/home/ubuntu20-04/ros1_workspaces/smb_ws/build/eth-zurich-solution/smb_common_v2/smb_gazebo/cmake_install.cmake")
-  include("/home/ubuntu20-04/ros1_workspaces/smb_ws/build/eth-zurich-solution/smb_common_v2/smb_description/cmake_install.cmake")
-  include("/home/ubuntu20-04/ros1_workspaces/smb_ws/build/eth-zurich-solution/smb_highlevel_controller/cmake_install.cmake")
+  include("/home/ubuntu20-04/ros1_workspaces/smb_ws/build/smb_test/teleop_twist_keyboard/cmake_install.cmake")
+  include("/home/ubuntu20-04/ros1_workspaces/smb_ws/build/smb_test/smb_common_v2/smb_control/cmake_install.cmake")
+  include("/home/ubuntu20-04/ros1_workspaces/smb_ws/build/smb_test/smb_common_v2/smb_gazebo/cmake_install.cmake")
+  include("/home/ubuntu20-04/ros1_workspaces/smb_ws/build/smb_test/smb_common_v2/smb_description/cmake_install.cmake")
+  include("/home/ubuntu20-04/ros1_workspaces/smb_ws/build/smb_test/smb_highlevel_controller/cmake_install.cmake")
 
 endif()
 

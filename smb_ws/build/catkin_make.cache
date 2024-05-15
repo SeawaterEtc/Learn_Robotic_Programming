@@ -1,2 +1,2 @@
-eth-zurich-solution/smb_common_v2/smb_control:eth-zurich-solution/smb_common_v2/smb_description:eth-zurich-solution/smb_common_v2/smb_gazebo:eth-zurich-solution/smb_highlevel_controller:eth-zurich-solution/teleop_twist_keyboard
+smb_test/smb_common_v2/smb_control:smb_test/smb_common_v2/smb_description:smb_test/smb_common_v2/smb_gazebo:smb_test/smb_highlevel_controller:smb_test/teleop_twist_keyboard
 -DCATKIN_DEVEL_PREFIX=/home/ubuntu20-04/ros1_workspaces/smb_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu20-04/ros1_workspaces/smb_ws/install -G Unix Makefiles

@@ -562,15 +562,83 @@ roslaunch smb_highlevel_controller smb_highlevel_controller.launch
 
 - smb simulation with a different world: Include smb_gazebo.launch file and change the world_file argument to a world from the directory /usr/share/gazebo-11/worlds (e.g. worlds/robocup14_spl_field.world). This might take a little while to load the first time. Note that the world_name is with respect to /usr/share/gazebo-11/
 
-The world file argument is hardcoded as follow and need to be set in the value of the world. However, testing in WSL is not working. 
+The world file argument is hardcoded as follow and need to be set in the value of the world.
 
 ``` 
 <arg name="world_file" value="/usr/share/gazebo-9/worlds/robocup14_spl_field.world"/>
 ``` 
 
+The method above is also works I think, but the solution that I use is that I copy the xml of the world and create a .world file and then compile the file to the value. (current machine)
+
+You will need to change based on your machine
+```
+<arg name="world_name"    value="/home/ubuntu20-04/ros1_workspaces/smb_ws/src/smb_test/smb_common_v2/smb_gazebo/worlds/robocup14.world"/>
+```
+
+robocup14.world xml
+```xml
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <!-- RoboCup SPL 2014 field -->
+    <include>
+      <uri>model://robocup14_spl_field</uri>
+    </include>
+    <!-- RoboCup SPL 2014 left goal -->
+    <include>
+      <pose>-4.5 0 0 0 0 3.1416</pose>
+      <uri>model://robocup14_spl_goal</uri>
+    </include>
+    <!-- RoboCup SPL 2014 right goal -->
+    <include>
+      <pose>4.5 0 0 0 0 0</pose>
+      <uri>model://robocup14_spl_goal</uri>
+    </include>
+    <!-- RoboCup SPL ball -->
+    <include>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://robocup_spl_ball</uri>
+    </include>
+  </world>
+</sdf>
+```
+
+
+## Demo in Class
+The evaluation of this hw is based on showing the new world and the teleop controller. 
+
+after source devel/setup.bash in the ws. 
+
+By running this command in one termial
+``` 
+roslaunch smb_gazebo smb_gazebo.launch
+```
+Use teleop in another and roscore in another
+``` 
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+``` 
+or go to this dir
+```
+cd ros1_workspaces/smb_ws/src/smb_test/teleop_twist_keyboard
+```
+then run 
+``` 
+python3 teleop_twist_keyboard.py
+``` 
+
 
 # URDF_Gazebo_Sensors_Controller-Pub-Sub_ws
 What is the requirement? This is the demostration that 
+
+
 
 
 # MOVEIT 

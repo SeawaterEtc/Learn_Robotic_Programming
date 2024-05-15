@@ -3,7 +3,7 @@
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
 # The purpose is that of a symlink
-python_script = '/home/ubuntu20-04/ros1_workspaces/smb_ws/src/eth-zurich-solution/smb_highlevel_controller/nodes/smb_highlevel_controller'
+python_script = '/home/ubuntu20-04/ros1_workspaces/smb_ws/src/smb_test/smb_highlevel_controller/nodes/smb_highlevel_controller'
 with open(python_script, 'r') as fh:
     context = {
         '__builtins__': __builtins__,

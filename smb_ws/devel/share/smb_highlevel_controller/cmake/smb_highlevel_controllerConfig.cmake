@@ -67,7 +67,7 @@ set(smb_highlevel_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(smb_highlevel_controller_SOURCE_PREFIX /home/ubuntu20-04/ros1_workspaces/smb_ws/src/eth-zurich-solution/smb_highlevel_controller)
+  set(smb_highlevel_controller_SOURCE_PREFIX /home/ubuntu20-04/ros1_workspaces/smb_ws/src/smb_test/smb_highlevel_controller)
   set(smb_highlevel_controller_DEVEL_PREFIX /home/ubuntu20-04/ros1_workspaces/smb_ws/devel)
   set(smb_highlevel_controller_INSTALL_PREFIX "")
   set(smb_highlevel_controller_PREFIX ${smb_highlevel_controller_DEVEL_PREFIX})
@@ -110,7 +110,7 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'smb_highlevel_controller' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'smb_highlevel_controller' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ubuntu20-04/ros1_workspaces/smb_ws/src/eth-zurich-solution/smb_highlevel_controller/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'smb_highlevel_controller' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ubuntu20-04/ros1_workspaces/smb_ws/src/smb_test/smb_highlevel_controller/${idir}'.  ${_report}")
     endif()
     _list_append_unique(smb_highlevel_controller_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ubuntu20-04/ros1_workspaces/smb_ws/devel/lib;/home/ubuntu20-04/ws_moveit/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ubuntu20-04/ros1_workspaces/smb_ws/devel/lib;/home/ubuntu20-04/ros1_workspaces/smb_ws/devel/lib;/home/ubuntu20-04/ws_moveit/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

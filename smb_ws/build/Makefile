@@ -294,7 +294,7 @@ _catkin_empty_exported_target: cmake_check_build_system
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	$(MAKE) -f eth-zurich-solution/teleop_twist_keyboard/CMakeFiles/_catkin_empty_exported_target.dir/build.make eth-zurich-solution/teleop_twist_keyboard/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(MAKE) -f smb_test/teleop_twist_keyboard/CMakeFiles/_catkin_empty_exported_target.dir/build.make smb_test/teleop_twist_keyboard/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
@@ -307,7 +307,7 @@ _run_tests_smb_control: cmake_check_build_system
 
 # fast build rule for target.
 _run_tests_smb_control/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control.dir/build.make eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control.dir/build.make smb_test/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control.dir/build
 .PHONY : _run_tests_smb_control/fast
 
 #=============================================================================
@@ -320,7 +320,7 @@ run_tests_smb_control_roslaunch-check: cmake_check_build_system
 
 # fast build rule for target.
 run_tests_smb_control_roslaunch-check/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control_roslaunch-check.dir/build.make eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control_roslaunch-check.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control_roslaunch-check.dir/build.make smb_test/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control_roslaunch-check.dir/build
 .PHONY : run_tests_smb_control_roslaunch-check/fast
 
 #=============================================================================
@@ -333,7 +333,7 @@ run_tests_smb_control_roslaunch-check_launch: cmake_check_build_system
 
 # fast build rule for target.
 run_tests_smb_control_roslaunch-check_launch/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control_roslaunch-check_launch.dir/build.make eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control_roslaunch-check_launch.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control_roslaunch-check_launch.dir/build.make smb_test/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control_roslaunch-check_launch.dir/build
 .PHONY : run_tests_smb_control_roslaunch-check_launch/fast
 
 #=============================================================================
@@ -346,7 +346,7 @@ run_tests_smb_control: cmake_check_build_system
 
 # fast build rule for target.
 run_tests_smb_control/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control.dir/build.make eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control.dir/build.make smb_test/smb_common_v2/smb_control/CMakeFiles/run_tests_smb_control.dir/build
 .PHONY : run_tests_smb_control/fast
 
 #=============================================================================
@@ -359,7 +359,7 @@ _run_tests_smb_control_roslaunch-check_launch: cmake_check_build_system
 
 # fast build rule for target.
 _run_tests_smb_control_roslaunch-check_launch/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control_roslaunch-check_launch.dir/build.make eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control_roslaunch-check_launch.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control_roslaunch-check_launch.dir/build.make smb_test/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control_roslaunch-check_launch.dir/build
 .PHONY : _run_tests_smb_control_roslaunch-check_launch/fast
 
 #=============================================================================
@@ -372,7 +372,7 @@ clean_test_results_smb_control: cmake_check_build_system
 
 # fast build rule for target.
 clean_test_results_smb_control/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/clean_test_results_smb_control.dir/build.make eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/clean_test_results_smb_control.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_control/CMakeFiles/clean_test_results_smb_control.dir/build.make smb_test/smb_common_v2/smb_control/CMakeFiles/clean_test_results_smb_control.dir/build
 .PHONY : clean_test_results_smb_control/fast
 
 #=============================================================================
@@ -385,7 +385,7 @@ _run_tests_smb_control_roslaunch-check: cmake_check_build_system
 
 # fast build rule for target.
 _run_tests_smb_control_roslaunch-check/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control_roslaunch-check.dir/build.make eth-zurich-solution/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control_roslaunch-check.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control_roslaunch-check.dir/build.make smb_test/smb_common_v2/smb_control/CMakeFiles/_run_tests_smb_control_roslaunch-check.dir/build
 .PHONY : _run_tests_smb_control_roslaunch-check/fast
 
 #=============================================================================
@@ -398,7 +398,7 @@ odometry_source_plugin: cmake_check_build_system
 
 # fast build rule for target.
 odometry_source_plugin/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/odometry_source_plugin.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/odometry_source_plugin.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/odometry_source_plugin.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/odometry_source_plugin.dir/build
 .PHONY : odometry_source_plugin/fast
 
 #=============================================================================
@@ -411,7 +411,7 @@ trajectory_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
 .PHONY : trajectory_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -424,7 +424,7 @@ trajectory_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -437,7 +437,7 @@ trajectory_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -450,7 +450,7 @@ gazebo_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
 .PHONY : gazebo_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -463,7 +463,7 @@ gazebo_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
 .PHONY : gazebo_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -476,7 +476,7 @@ std_srvs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
 .PHONY : std_srvs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -489,7 +489,7 @@ std_srvs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -502,7 +502,7 @@ std_srvs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/build
 .PHONY : std_srvs_generate_messages_eus/fast
 
 #=============================================================================
@@ -515,7 +515,7 @@ geometry_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -528,7 +528,7 @@ std_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -541,7 +541,7 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -554,7 +554,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -567,7 +567,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -580,7 +580,7 @@ std_srvs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -593,7 +593,7 @@ dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 #=============================================================================
@@ -606,7 +606,7 @@ tf2_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -619,7 +619,7 @@ geometry_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -632,7 +632,7 @@ gazebo_ros_gencfg: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_ros_gencfg/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build
 .PHONY : gazebo_ros_gencfg/fast
 
 #=============================================================================
@@ -645,7 +645,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -658,7 +658,7 @@ roscpp_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
@@ -671,7 +671,7 @@ sensor_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -684,7 +684,7 @@ tf2_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -697,7 +697,7 @@ rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -710,7 +710,7 @@ actionlib_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 #=============================================================================
@@ -723,7 +723,7 @@ actionlib_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -736,7 +736,7 @@ geometry_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -749,7 +749,7 @@ tf_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
 
 #=============================================================================
@@ -762,7 +762,7 @@ roscpp_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -775,7 +775,7 @@ trajectory_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
 .PHONY : trajectory_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -788,7 +788,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -801,7 +801,7 @@ std_srvs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/build
 .PHONY : std_srvs_generate_messages_py/fast
 
 #=============================================================================
@@ -814,7 +814,7 @@ rosgraph_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -827,7 +827,7 @@ tf_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_eus.dir/build
 .PHONY : tf_generate_messages_eus/fast
 
 #=============================================================================
@@ -840,7 +840,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -853,7 +853,7 @@ dynamic_reconfigure_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 #=============================================================================
@@ -866,7 +866,7 @@ actionlib_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -879,7 +879,7 @@ tf_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
 #=============================================================================
@@ -892,7 +892,7 @@ dynamic_reconfigure_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 #=============================================================================
@@ -905,7 +905,7 @@ geometry_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -918,7 +918,7 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
@@ -931,7 +931,7 @@ actionlib_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 #=============================================================================
@@ -944,7 +944,7 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -957,7 +957,7 @@ tf_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/build
 .PHONY : tf_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -970,7 +970,7 @@ gazebo_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
 .PHONY : gazebo_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -983,7 +983,7 @@ sensor_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -996,7 +996,7 @@ gazebo_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
 .PHONY : gazebo_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1009,7 +1009,7 @@ tf2_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1022,7 +1022,7 @@ dynamic_reconfigure_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1035,7 +1035,7 @@ sensor_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1048,7 +1048,7 @@ sensor_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1061,7 +1061,7 @@ sensor_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1074,7 +1074,7 @@ trajectory_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
 .PHONY : trajectory_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1087,7 +1087,7 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1100,7 +1100,7 @@ actionlib_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
 
 #=============================================================================
@@ -1113,7 +1113,7 @@ actionlib_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1126,7 +1126,7 @@ actionlib_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1139,7 +1139,7 @@ actionlib_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 #=============================================================================
@@ -1152,7 +1152,7 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1165,7 +1165,7 @@ tf_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
 #=============================================================================
@@ -1178,7 +1178,7 @@ actionlib_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1191,7 +1191,7 @@ actionlib_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1204,7 +1204,7 @@ tf2_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1217,7 +1217,7 @@ tf2_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1230,7 +1230,7 @@ dynamic_reconfigure_gencfg: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 #=============================================================================
@@ -1243,7 +1243,7 @@ geometry_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1256,7 +1256,7 @@ dynamic_reconfigure_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 #=============================================================================
@@ -1269,7 +1269,7 @@ gazebo_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
 .PHONY : gazebo_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1282,7 +1282,7 @@ nav_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1295,7 +1295,7 @@ nav_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1308,7 +1308,7 @@ nav_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
 .PHONY : nav_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1321,7 +1321,7 @@ nav_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1334,7 +1334,7 @@ nav_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1347,7 +1347,7 @@ uuid_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 uuid_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_py.dir/build
 .PHONY : uuid_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1360,7 +1360,7 @@ uuid_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 uuid_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build
 .PHONY : uuid_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1373,7 +1373,7 @@ uuid_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 uuid_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build
 .PHONY : uuid_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1386,7 +1386,7 @@ smb_description_xacro_generated_to_devel_space_: cmake_check_build_system
 
 # fast build rule for target.
 smb_description_xacro_generated_to_devel_space_/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/smb_description_xacro_generated_to_devel_space_.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/smb_description_xacro_generated_to_devel_space_.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/smb_description_xacro_generated_to_devel_space_.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/smb_description_xacro_generated_to_devel_space_.dir/build
 .PHONY : smb_description_xacro_generated_to_devel_space_/fast
 
 #=============================================================================
@@ -1399,7 +1399,7 @@ hector_gazebo_plugins_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_plugins_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/build
 .PHONY : hector_gazebo_plugins_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1412,7 +1412,7 @@ uuid_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 uuid_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build
 .PHONY : uuid_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1425,7 +1425,7 @@ hector_gazebo_plugins_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_plugins_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/build
 .PHONY : hector_gazebo_plugins_generate_messages_eus/fast
 
 #=============================================================================
@@ -1438,7 +1438,7 @@ hector_gazebo_plugins_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_plugins_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/build
 .PHONY : hector_gazebo_plugins_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1451,7 +1451,7 @@ geographic_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 geographic_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_py.dir/build
 .PHONY : geographic_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1464,7 +1464,7 @@ hector_gazebo_plugins_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_plugins_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/build
 .PHONY : hector_gazebo_plugins_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1477,7 +1477,7 @@ geographic_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 geographic_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build
 .PHONY : geographic_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1490,7 +1490,7 @@ hector_gazebo_plugins_gencfg: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_plugins_gencfg/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_gencfg.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_gencfg.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_gencfg.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_gencfg.dir/build
 .PHONY : hector_gazebo_plugins_gencfg/fast
 
 #=============================================================================
@@ -1503,7 +1503,7 @@ hector_gazebo_plugins_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_plugins_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/build
 .PHONY : hector_gazebo_plugins_generate_messages_py/fast
 
 #=============================================================================
@@ -1516,7 +1516,7 @@ geographic_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 geographic_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build
 .PHONY : geographic_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1529,7 +1529,7 @@ uuid_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 uuid_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build
 .PHONY : uuid_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1542,7 +1542,7 @@ geographic_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 geographic_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build
 .PHONY : geographic_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1555,7 +1555,7 @@ geographic_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 geographic_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build.make smb_test/smb_common_v2/smb_description/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build
 .PHONY : geographic_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1568,7 +1568,7 @@ visualization_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 visualization_msgs_generate_messages_py/fast:
-	$(MAKE) -f eth-zurich-solution/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make eth-zurich-solution/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+	$(MAKE) -f smb_test/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make smb_test/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
 .PHONY : visualization_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1581,7 +1581,7 @@ visualization_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 visualization_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f eth-zurich-solution/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make eth-zurich-solution/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f smb_test/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make smb_test/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
 .PHONY : visualization_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1594,7 +1594,7 @@ visualization_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 visualization_msgs_generate_messages_eus/fast:
-	$(MAKE) -f eth-zurich-solution/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make eth-zurich-solution/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f smb_test/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make smb_test/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
 .PHONY : visualization_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1607,7 +1607,7 @@ visualization_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 visualization_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make eth-zurich-solution/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f smb_test/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make smb_test/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
 .PHONY : visualization_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1620,7 +1620,7 @@ visualization_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 visualization_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f eth-zurich-solution/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make eth-zurich-solution/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f smb_test/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make smb_test/smb_highlevel_controller/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
 .PHONY : visualization_msgs_generate_messages_cpp/fast
 
 # Help Target

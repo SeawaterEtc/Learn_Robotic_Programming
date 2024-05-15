@@ -5,8 +5,8 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("eth-zurich-solution/teleop_twist_keyboard")
-subdirs("eth-zurich-solution/smb_common_v2/smb_control")
-subdirs("eth-zurich-solution/smb_common_v2/smb_gazebo")
-subdirs("eth-zurich-solution/smb_common_v2/smb_description")
-subdirs("eth-zurich-solution/smb_highlevel_controller")
+subdirs("smb_test/teleop_twist_keyboard")
+subdirs("smb_test/smb_common_v2/smb_control")
+subdirs("smb_test/smb_common_v2/smb_gazebo")
+subdirs("smb_test/smb_common_v2/smb_description")
+subdirs("smb_test/smb_highlevel_controller")
