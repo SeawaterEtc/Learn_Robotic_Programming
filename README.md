@@ -5,6 +5,9 @@ The goal of this repository is to save everything that I learnt from Robotic Pro
 We are mostly using ROS, so it is very interesting. 
 
 I am using WSL for Ubuntu 20-04 on Windows 11. Alright, to set it up go to cmd and check to see if you have wsl or not.
+
+I have to acknowledge that using ROS in WSL will face some issues. 
+
 ```
 wsl
 ```
@@ -555,24 +558,19 @@ roslaunch smb_highlevel_controller smb_highlevel_controller.launch
 ``` 
 
 
-
-
 ### 5. Write a launch file with the following content (Lecture 1 Slides 27-30):
 
 - smb simulation with a different world: Include smb_gazebo.launch file and change the world_file argument to a world from the directory /usr/share/gazebo-11/worlds (e.g. worlds/robocup14_spl_field.world). This might take a little while to load the first time. Note that the world_name is with respect to /usr/share/gazebo-11/
 
-The world file argument is hardcoded as follow: 
+The world file argument is hardcoded as follow and need to be set in the value of the world. However, testing in WSL is not working. 
 
 ``` 
 <arg name="world_file" value="/usr/share/gazebo-9/worlds/robocup14_spl_field.world"/>
 ``` 
 
 
-
-
-
 # URDF_Gazebo_Sensors_Controller-Pub-Sub_ws
-
+What is the requirement? This is the demostration that 
 
 
 # MOVEIT 
