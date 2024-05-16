@@ -35,6 +35,14 @@ wsl --list
 ![alt text](image-2.png)
 
 
+### In my WSL Ubuntu 20.04
+I made a dir called 
+```
+mkdir ros1_workspaces 
+```
+where I put all the ws of different sim inside. 
+Maybe the furture me want to use this at some point, so all you need to do is create a dir and clone everything from this repo or you can just follow everything down below.  
+
 # Turtlesim_ws
 
 create ws
@@ -169,6 +177,20 @@ if __name__ == '__main__':
         pub.publish(msg)
         rate.sleep()
 ```
+in cpp
+```
+touch drawcircle.cpp
+chmod +x drawcircle.cpp
+ 
+```
+in the drawcircle.cpp
+```
+
+```
+
+
+
+
 
 After running without having this line in the package.xml, I see that it works just fine, so I don't know why do you need this. 
 ```
@@ -312,6 +334,26 @@ run in its dir
 ```
 python3 starshape.py
 ```
+## Demo Turtlesim in class
+create four terminals by ATL + SHIFT + D (WSL). roscore on one terminals
+then on each terminal
+```
+cd ros1_workspaces/turtlesim_ws
+source devel/setup.bash 
+ 
+```
+in one
+```
+rosrun turtlesim turtlesim_node
+```
+another
+```
+rosrun controller draw_circle.py
+```
+
+
+
+
 
 # Turtlebot3_ws
 What is this? The goal is to make the Turtlebot3 run in circle and draw a starshape. To have Tutlebot3, you need to do the instruction from these pages:
@@ -467,6 +509,33 @@ or inside its dir
 python3 starpath.py
 ```
 
+## Demo Turtlebot3 in class 
+roscore on a different terminal and go to dir and source
+```
+cd ros1_workspaces/turtlebot3_ws
+source devel/setup.bash
+ 
+```
+run the sim
+```
+export TURTLEBOT3_MODEL=burger 
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+ 
+```
+circle shape
+```
+export TURTLEBOT3_MODEL=burger 
+rosrun pubandsub runIncircle.py
+ 
+```
+star path
+```
+export TURTLEBOT3_MODEL=burger 
+rosrun pubandsub starpath.py
+ 
+```
+
+
 
 
 # Smb_ws ([s](https://github.com/NelsenEW/eth-zurich-solution?tab=readme-ov-file))
@@ -618,13 +687,20 @@ The evaluation of this hw is based on showing the new world and the teleop contr
 
 after source devel/setup.bash in the ws. 
 
-By running this command in one termial
+create four terminals (alt+ shift + d (wsl only))​​​​ then run these in each one and roscore 
+```
+cd ros1_workspaces/smb_ws
+source devel/setup.bash
+
+```
+in one termial
 ``` 
 roslaunch smb_gazebo smb_gazebo.launch
 ```
-Use teleop in another and roscore in another
+Use teleop in another 
 ``` 
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+
 ``` 
 or go to this dir
 ```
