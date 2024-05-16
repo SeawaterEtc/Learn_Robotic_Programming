@@ -713,11 +713,24 @@ python3 teleop_twist_keyboard.py
 
 
 # URDF_Gazebo_Sensors_Controller-Pub-Sub_ws
-What are the requirement? 
-create a URDF robot with 3-5 links
+What are the requirements?
 
-1. first valuable resource [https://classic.gazebosim.org/tutorials]
-2. 
++ create a URDF robot with 3-5 links
+
+  1. first valuable resource [https://classic.gazebosim.org/tutorials?tut=ros_urdf]
++ Make it run on gazebo (solidwork 2020 can be used)
++ Basics Robot Modelling 
+  + 1 - Robot description (URDF, xacro) 
+  + 2 - Lunch file for Rviz
++ Gazebo and Actuator 
+  + 1- Add transmission and gazebo plugin to your robot description 
+  + 2- Create launch file for gazebo 
++ Sensors
+  + 1- Add sensors (Camera and lida to robot)
+  + 2- Create launch file for gazebo 
+  + 3- Monitor Camera image and lida in rviz
+
+
 
 I think I need to use solidworks and other software to help with this work. 
 
