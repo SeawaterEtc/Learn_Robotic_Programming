@@ -711,13 +711,96 @@ then run
 python3 teleop_twist_keyboard.py
 ``` 
 
-
 # URDF_Gazebo_Sensors_Controller-Pub-Sub_ws
+
+## Tutorials_ws
+
+There are online resources that can help me since it wasn't comprehensive enough in the classroom. 
+
+  1. first valuable resource [https://classic.gazebosim.org/tutorials?tut=ros_urdf]
+      + There are steps and steps in this turtorial, the question is, do I have the time to complete it? If complete it, can I get the final project done? (I think so... )
+
+### Demo Turtorials
+#### Turtorials on https://wiki.ros.org/urdf/Tutorials 
+To prepare URDF to meet all the requirements in Gazebo, there ere a few main ideas. 
+
+There are four main concepts in URDF that is useful
+
+1. Building visuals
+    + [How to build visual in URDF?](https://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch) 
+      + link for the shape
+      + join for the joining between shape
+      + material for the color of the shape
+
+2. Building movements
+    + [How to build movement in URDF?](https://wiki.ros.org/urdf/Tutorials/Building%20a%20Movable%20Robot%20Model%20with%20URDF)
+      + continous 
+      + revolute 
+      + prismatic
+
+3. Adding physics and collisions
+    + [How to add physics and collisions in URDF?](https://wiki.ros.org/urdf/Tutorials/Adding%20Physical%20and%20Collision%20Properties%20to%20a%20URDF%20Model)
+      + collisions = visual 
+      + physical property (inertia) 
+        + mass
+        + inertia 
+      + there are a few more
+
+4. Using Xacro to Clean Up a URDF File
+    + [How to use Xacro to clean up a URDF file?](https://wiki.ros.org/urdf/Tutorials/Using%20Xacro%20to%20Clean%20Up%20a%20URDF%20File)
+      + Constants (declared it any where in the file)
+      + Simple Math ()
+      + Macros
+##### Demo to test the different URDF concept
+```
+cd ros1_workspaces/tutorials/urdf_tutorial
+```
+```
+roslaunch urdf_tutorial display.launch model:=urdf/01-myfirst.urdf
+```
+more
+```
+02-multipleshapes.urdf 
+03-origins.urdf
+04-materials.urdf
+05-visual.urdf
+06-flexible.urdf
+07-physics.urdf
+08-macroed.urdf.xacro
+```
+
+5. Using a URDF in Gazebo
+    + [How to use URDF in Gazebo?](https://wiki.ros.org/urdf/Tutorials/Using%20a%20URDF%20in%20Gazebo)
+      + I had to clone another repo in the src of tutorial_ws then catkin_make to test this (just follow the tutorial)
+      + ```
+         roslaunch urdf_sim_tutorial gazebo.launch 
+        ```
+        each of these luanch have a different concept behind it, I hope solid works will cover all of that
+        ```
+        09-joints.launch 
+        10-head.launch 
+        12-gripper.launch
+        13-diffdrive.launch
+        gazebo.launch
+        ```
+
+All these processes are the required elements for this assignment. 
+
+
+#### Tutorial on https://classic.gazebosim.org/tutorials?tut=ros_urdf 
+
+
+
+### Demo to test the the concept
+
+
+
+
+### Requirement of this ws
+
 What are the requirements?
 
 + create a URDF robot with 3-5 links
-
-  1. first valuable resource [https://classic.gazebosim.org/tutorials?tut=ros_urdf]
 + Make it run on gazebo (solidwork 2020 can be used)
 + Basics Robot Modelling 
   + 1 - Robot description (URDF, xacro) 
@@ -730,9 +813,9 @@ What are the requirements?
   + 2- Create launch file for gazebo 
   + 3- Monitor Camera image and lida in rviz
 
-
-
 I think I need to use solidworks and other software to help with this work. 
+
+## Building
 
 
 # MOVEIT 
