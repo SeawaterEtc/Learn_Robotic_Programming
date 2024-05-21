@@ -1,0 +1,2 @@
+panda_simulator/panda_simulator
+/home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/.private/panda_simulator/cmake.lock /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/./cmake.lock

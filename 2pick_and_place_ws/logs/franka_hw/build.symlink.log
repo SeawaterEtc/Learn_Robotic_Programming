@@ -1,0 +1,5 @@
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/libfranka_hw.so
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/libfranka_control_services.so
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/pkgconfig/franka_hw.pc
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/franka_hw/cmake/franka_hwConfig-version.cmake
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/franka_hw/cmake/franka_hwConfig.cmake

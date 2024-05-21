@@ -1,0 +1,7 @@
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/libpanda_gazebo_ros_control.so
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/libpanda_robot_hw_sim.so
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/pkgconfig/panda_gazebo.pc
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/panda_gazebo/force_neutral_pose.py
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/panda_gazebo/cmake.lock
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/panda_gazebo/cmake/panda_gazeboConfig.cmake
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/panda_gazebo/cmake/panda_gazeboConfig-version.cmake

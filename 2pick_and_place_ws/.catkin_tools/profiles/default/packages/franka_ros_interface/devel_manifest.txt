@@ -1,0 +1,2 @@
+franka_ros_interface/franka_ros_interface
+/home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/.private/franka_ros_interface/cmake.lock /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/./cmake.lock

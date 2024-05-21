@@ -1,0 +1,4 @@
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/libpanda_sim_controllers.so
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/pkgconfig/panda_sim_controllers.pc
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/panda_sim_controllers/cmake/panda_sim_controllersConfig.cmake
+Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/panda_sim_controllers/cmake/panda_sim_controllersConfig-version.cmake
