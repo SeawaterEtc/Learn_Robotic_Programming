@@ -718,10 +718,19 @@ python3 teleop_twist_keyboard.py
 There are online resources that can help me since it wasn't comprehensive enough in the classroom. 
 
   1. first valuable resource [https://classic.gazebosim.org/tutorials?tut=ros_urdf]
-      + There are steps and steps in this turtorial, the question is, do I have the time to complete it? If complete it, can I get the final project done? (I think so... )
+      + There are steps and steps in this tutorial, the question is, do I have the time to complete it? If complete it, can I get the final project done? (I think so... )
 
-### Demo Turtorials
-#### Turtorials on https://wiki.ros.org/urdf/Tutorials 
+
+there are two clone for this tutorial
+```
+git@github.com:ros/urdf_tutorial.git
+```
+
+```
+git@github.com:ros/urdf_sim_tutorial.git
+```
+
+#### R2D2_ws https://wiki.ros.org/urdf/Tutorials 
 To prepare URDF to meet all the requirements in Gazebo, there ere a few main ideas. 
 
 There are four main concepts in URDF that is useful
@@ -771,30 +780,107 @@ more
 
 5. Using a URDF in Gazebo
     + [How to use URDF in Gazebo?](https://wiki.ros.org/urdf/Tutorials/Using%20a%20URDF%20in%20Gazebo)
-      + I had to clone another repo in the src of tutorial_ws then catkin_make to test this (just follow the tutorial)
-      + ```
-         roslaunch urdf_sim_tutorial gazebo.launch 
-        ```
-        each of these luanch have a different concept behind it, I hope solid works will cover all of that
-        ```
+      I had to clone another repo in the src of tutorial_ws then catkin_make to test this (just follow the tutorial)
+      1. **Simulation of the urdf in gazebo:** each of these luanch have a different concept behind it, I hope solid works will cover all of that
+      ```
+      roslaunch urdf_sim_tutorial gazebo.launch 
+      ```
+      
+      ```
         09-joints.launch 
         10-head.launch 
         12-gripper.launch
         13-diffdrive.launch
         gazebo.launch
-        ```
-      + Gazebo pluginto each URDF file
-      
+      ```
+      2. **Gazebo pluginto each URDF file:** In each URDF file, there is gazebo plugin line in order to create launch file in Gazebo
+      ```
+      roslaunch urdf_sim_tutorial gazebo.launch model:=urdf/09-publishjoints.urdf.xacro
+      ```
+      + Spawning Controllers: this method is to publish the states of the robot joints, it uses yaml file. All the fixed join. 
+      ```
+      roslaunch urdf_sim_tutorial 09-joints.launch
+      ```
+      + Transmissions: This method is for seeing  the robot, just to see only, you can't control yet
 
-All these processes are the required elements for this assignment. 
+      the path of launch file matter
+      ```
+      roslaunch urdf_sim_tutorial 09-joints.launch model:=src/urdf_sim_tutorial/urdf/10-firsttransmission.urdf.xacro
+      ```
+      + Joint Control: create the controller to control the robot joint
+      there is the head.yml 
+      ```
+      roslaunch urdf_sim_tutorial 10-head.launch
+      ```
+      publish the data to move the robot by joint
+      ```
+      rostopic pub /r2d2_head_controller/command std_msgs/Float64 "data: -0.707"
+      ```
+
+      + Another controller: 
+
+      gripper.yaml
+
+      the launch
+      ```
+      roslaunch urdf_sim_tutorial 12-gripper.launch
+      ```
+      to open and out the gripper
+      ```
+      rostopic pub  /r2d2_gripper_controller/command std_msgs/Float64MultiArray "layout:
+        dim:
+        - label: ''
+          size: 3
+          stride: 1
+        data_offset: 0
+      data: [0, 0.5, 0.5]"
+      ```
+      to retract
+      ```
+      rostopic pub  /r2d2_gripper_controller/command std_msgs/Float64MultiArray "layout:
+        dim:
+        - label: ''
+          size: 3
+          stride: 1
+        data_offset: 0
+      data: [-0.4, 0, 0]"
+      ```
+      + The Wheels on the Droid Go Round and Round
+
+      This is the final demo to simulate the robot 
+      ```
+       roslaunch urdf_sim_tutorial 13-diffdrive.launch
+      ```
+
+**To launch in Gazebo, there are urdf and launch file, to control, there are yaml, urdf and launch file**
 
 
-#### Tutorial on https://classic.gazebosim.org/tutorials?tut=ros_urdf 
+
+
+#### RRbot_ws https://classic.gazebosim.org/tutorials?tut=ros_urdf 
+
+
+```
+cd ros1_workspaces/tutorials_ws/src 
+git clone https://github.com/ros-simulation/gazebo_ros_demos.git 
+cd ..
+catkin_make 
+
+```
+
+I don't have time to get this done. 
 
 
 
-### Demo to test the the concept
 
+## Demo in Class
+
+```
+cd ros1_workspaces/tutorials_ws
+source devel/setup.bash
+roslaunch urdf_sim_tutorial 13-diffdrive.launch 
+
+```
 
 
 
@@ -822,3 +908,73 @@ I think I need to use solidworks and other software to help with this work.
 
 # MOVEIT 
 
+## pick_and_place_ws
+
+.
+
+.
+
+.
+
+
+.
+
+
+.
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+.
+
+
+
+
+
+
+
+
+
+Certainly! 🤖🌟 Many roboticists and developers have successfully used the **Franka Emika Panda** robot with **MoveIt** in **ROS 2** to perform pick-and-place tasks in **Gazebo** simulations. Here are some resources and examples you might find helpful:
+
+1. **YouTube Videos**:
+    - **Franka Panda Robotic Arm Object Pick and Place Demo in Simulation (MoveIt + Gazebo)**: This video showcases seamless object pickup and placement using the Franka Panda robotic arm within a Gazebo simulation. It integrates **ROS Noetic** with MoveIt for robotic manipulation⁴.
+    - **Pick and Place Task - ROS2 Gazebo Simulation (UR3 + Robotiq 2f-85)**: Demonstrates pick-and-place of a cube using a UR3 robot with a Robotiq 2f-85 parallel gripper in ROS 2 Humble².
+    - **Cube Pick and Place - ROS2 Gazebo Simulation**: Shows pick-and-place execution using an ABB IRB120 Robot with a Schunk EGP-64 gripper in ROS 2 Foxy + Gazebo³.
+
+2. **GitHub Repositories**:
+    - **elena-ecn/pick-and-place**: Provides a Gazebo launch file for the Panda robot, along with an object detector and pick-and-place controller⁵.
+    - **nicholaspalomo/panda_ros2_gazebo**: Includes scenarios like picking up cubes and inserting spark plugs using the Panda robot in ROS 2 Gazebo⁶.
+
+3. **Task Execution**:
+    - To execute a **MoveIt Task Constructor** task in Gazebo, you can create a launch file that includes the Panda arm and the desired task. For example:
+        ```python
+        pick_and_place = Node(
+            package="panda_arm_mtc",
+            executable="panda_arm_mtc",
+            output="screen",
+            parameters=[moveit_config.to_dict()],
+        )
+        return LaunchDescription([pick_and_place])
+        ```
+        Replace `panda_arm_mtc` with your specific package and task configuration⁷.
+
+Feel free to explore these resources and adapt them to your specific use case! If you have any more questions, feel free to ask. 🤗🚀
+
+Source: Conversation with Copilot, 5/21/2024
+(1) Franka Panda Robotic Arm Object Pick and Place Demo in ... - YouTube. https://www.youtube.com/watch?v=8morJEViRoM.
+(2) Pick and Place Task - ROS2 Gazebo Simulation (UR3 + Robotiq 2f-85). https://www.youtube.com/watch?v=t4L4VAfgqZw.
+(3) Cube Pick and Place - ROS2 Gazebo Simulation. https://www.youtube.com/watch?v=Ws6YKofCPKg.
+(4) elena-ecn/pick-and-place - GitHub. https://github.com/elena-ecn/pick-and-place.
+(5) Franka Emika Panda Simulation in ROS2-Gazebo - GitHub. https://github.com/nicholaspalomo/panda_ros2_gazebo.
+(6) How to execute a Moveit Task Constructor Task in Gazebo Classic?. https://robotics.stackexchange.com/questions/25012/how-to-execute-a-moveit-task-constructor-task-in-gazebo-classic.
+(7) How to Simulate Pick and Place in Gazebo with MoveIt. https://www.youtube.com/watch?v=KAyX4Mf5n2E.
+(8) undefined. https://learn-robotics-with-ros-s-school.teachable.com/p/home.

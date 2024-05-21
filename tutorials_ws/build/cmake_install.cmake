@@ -131,7 +131,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ubuntu20-04/ros1_workspaces/tutorials_ws/build/gtest/cmake_install.cmake")
+  include("/home/ubuntu20-04/ros1_workspaces/tutorials_ws/build/gazebo_ros_demos/rrbot_control/cmake_install.cmake")
+  include("/home/ubuntu20-04/ros1_workspaces/tutorials_ws/build/gazebo_ros_demos/rrbot_description/cmake_install.cmake")
+  include("/home/ubuntu20-04/ros1_workspaces/tutorials_ws/build/gazebo_ros_demos/rrbot_gazebo/cmake_install.cmake")
   include("/home/ubuntu20-04/ros1_workspaces/tutorials_ws/build/urdf_sim_tutorial/cmake_install.cmake")
+  include("/home/ubuntu20-04/ros1_workspaces/tutorials_ws/build/gazebo_ros_demos/gazebo_tutorials/cmake_install.cmake")
   include("/home/ubuntu20-04/ros1_workspaces/tutorials_ws/build/urdf_tutorial/cmake_install.cmake")
 
 endif()
