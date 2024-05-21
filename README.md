@@ -960,7 +960,7 @@ rosrun pick_and_place pick_and_place_state_machine.py
 
 Go to the dir
 ```shell
-cd ros1_workspaces/pick_and_place_ws
+cd ros1_workspaces/2pick_and_place_ws
 source devel/setup.bash
 
 ```
