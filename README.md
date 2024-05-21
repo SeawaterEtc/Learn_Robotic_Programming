@@ -917,7 +917,10 @@ I think I need to use solidworks and other software to help with this work.
 
 There are issues with motion planning
 
+create 6 taps and source
+
 Go to the dir
+
 ```shell
 cd ros1_workspaces/pick_and_place_ws
 source devel/setup.bash
@@ -928,17 +931,6 @@ Load the robot in Gazebo
 ```shell
 roslaunch pick_and_place panda_world.launch 
 ```
-
-I think, I need to go to this dir? 
-```
-cd ros1_workspaces/pick_and_place_ws/src/panda_simulator
-```
-
-after everything, why do I find it here? https://github.com/opendr-eu/opendr/tree/3676a2652ebd82adf4fc773213d2efe14c84dc0c/projects/python/control/single_demo_grasp/simulation_ws/src/panda_moveit_config 
-
-![The launch below won't happen if I don't have all the files](image-4.png)
-
-
 
 Start MoveIt for motion planning
 ```shell
@@ -984,6 +976,17 @@ Run the pick-and-place controller
 ```shell
 rosrun pick_and_place pick_and_place_state_machine.py
 ```
+
+
+
+I think, I need to go to this dir? 
+```
+cd ros1_workspaces/pick_and_place_ws/src/panda_simulator
+```
+
+after everything, why do I find it here? https://github.com/opendr-eu/opendr/tree/3676a2652ebd82adf4fc773213d2efe14c84dc0c/projects/python/control/single_demo_grasp/simulation_ws/src/panda_moveit_config 
+
+![The launch below won't happen if I don't have all the files](image-4.png)
 
 
 
