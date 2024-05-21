@@ -901,7 +901,7 @@ What are the requirements?
 + Gazebo and Actuator 
   + 1- Add transmission and gazebo plugin to your robot description 
   + 2- Create launch file for gazebo 
-+ Sensors
++ Sensors (missing)
   + 1- Add sensors (Camera and lida to robot)
   + 2- Create launch file for gazebo 
   + 3- Monitor Camera image and lida in rviz
@@ -913,9 +913,12 @@ I think I need to use solidworks and other software to help with this work.
 
 # MOVEIT 
 
-## 1pick_and_place_ws
+What is the requirement? 
 
-There are issues with motion planning
+1. Robot Arm to Pick and Place object
+
+
+## pick_and_place_ws
 
 create 6 taps and source
 
@@ -947,114 +950,34 @@ Run the pick-and-place controller
 rosrun pick_and_place pick_and_place_state_machine.py
 ```
 
+### How I made this? 
 
-## 2pick_and_place_ws
+well, I clone four repos, this is not 100% my work, I just clone and download the parts and then combine it together. The hard part was the package panda_moveit_config. 
 
-Go to the dir
-```shell
-cd ros1_workspaces/2pick_and_place_ws
-source devel/setup.bash
++ https://github.com/elena-ecn/pick-and-place.git
++ https://github.com/justagist/panda_simulator.git 
++ https://github.com/justagist/franka_ros_interface.git 
++ https://github.com/opendr-eu/opendr/tree/3676a2652ebd82adf4fc773213d2efe14c84dc0c/projects/python/control/single_demo_grasp/simulation_ws/src/panda_moveit_config 
 
-```
+Despite getting helps from robotic community from the internet, I need to make sure that I understand the concept clearly. 
 
-Load the robot in Gazebo
-```shell
-roslaunch pick_and_place panda_world.launch 
-```
+**If I have more time, I will make one on my own. But the reality is that, it will takes a lot of work!**
 
-Start MoveIt for motion planning
-```shell
-roslaunch panda_sim_moveit sim_move_group.launch
-```
+#### Explanation
 
-Run the object detector
-```shell
-rosrun pick_and_place object_detector.py
-```
++ let's take a loot at the first 5 packages, the franka_ are for the depencies needed for the panda arm to work. It is hard to create a compete funcational robot arm, so I use these packages
 
-Run the pick-and-place controller
-```shell
-rosrun pick_and_place pick_and_place_state_machine.py
-```
+It is too complicated for me to understand
 
 
+## fixing issues (personal)
 
-I think, I need to go to this dir? 
-```
-cd ros1_workspaces/pick_and_place_ws/src/panda_simulator
-```
 
 after everything, why do I find it here? https://github.com/opendr-eu/opendr/tree/3676a2652ebd82adf4fc773213d2efe14c84dc0c/projects/python/control/single_demo_grasp/simulation_ws/src/panda_moveit_config 
 
 ![The launch below won't happen if I don't have all the files](image-4.png)
 
+because, this is the maitainer of the moveit config part
 
+![On the page click dot (.), go to the dir, right click, download, must be a folder outside](image-5.png)
 
-.
-
-.
-
-.
-
-
-.
-
-
-.
-
-.
-
-
-.
-
-
-.
-
-
-.
-
-.
-
-
-
-
-
-
-
-
-
-Certainly! 🤖🌟 Many roboticists and developers have successfully used the **Franka Emika Panda** robot with **MoveIt** in **ROS 2** to perform pick-and-place tasks in **Gazebo** simulations. Here are some resources and examples you might find helpful:
-
-1. **YouTube Videos**:
-    - **Franka Panda Robotic Arm Object Pick and Place Demo in Simulation (MoveIt + Gazebo)**: This video showcases seamless object pickup and placement using the Franka Panda robotic arm within a Gazebo simulation. It integrates **ROS Noetic** with MoveIt for robotic manipulation⁴.
-    - **Pick and Place Task - ROS2 Gazebo Simulation (UR3 + Robotiq 2f-85)**: Demonstrates pick-and-place of a cube using a UR3 robot with a Robotiq 2f-85 parallel gripper in ROS 2 Humble².
-    - **Cube Pick and Place - ROS2 Gazebo Simulation**: Shows pick-and-place execution using an ABB IRB120 Robot with a Schunk EGP-64 gripper in ROS 2 Foxy + Gazebo³.
-
-2. **GitHub Repositories**:
-    - **elena-ecn/pick-and-place**: Provides a Gazebo launch file for the Panda robot, along with an object detector and pick-and-place controller⁵.
-    - **nicholaspalomo/panda_ros2_gazebo**: Includes scenarios like picking up cubes and inserting spark plugs using the Panda robot in ROS 2 Gazebo⁶.
-
-3. **Task Execution**:
-    - To execute a **MoveIt Task Constructor** task in Gazebo, you can create a launch file that includes the Panda arm and the desired task. For example:
-        ```python
-        pick_and_place = Node(
-            package="panda_arm_mtc",
-            executable="panda_arm_mtc",
-            output="screen",
-            parameters=[moveit_config.to_dict()],
-        )
-        return LaunchDescription([pick_and_place])
-        ```
-        Replace `panda_arm_mtc` with your specific package and task configuration⁷.
-
-Feel free to explore these resources and adapt them to your specific use case! If you have any more questions, feel free to ask. 🤗🚀
-
-Source: Conversation with Copilot, 5/21/2024
-(1) Franka Panda Robotic Arm Object Pick and Place Demo in ... - YouTube. https://www.youtube.com/watch?v=8morJEViRoM.
-(2) Pick and Place Task - ROS2 Gazebo Simulation (UR3 + Robotiq 2f-85). https://www.youtube.com/watch?v=t4L4VAfgqZw.
-(3) Cube Pick and Place - ROS2 Gazebo Simulation. https://www.youtube.com/watch?v=Ws6YKofCPKg.
-(4) elena-ecn/pick-and-place - GitHub. https://github.com/elena-ecn/pick-and-place.
-(5) Franka Emika Panda Simulation in ROS2-Gazebo - GitHub. https://github.com/nicholaspalomo/panda_ros2_gazebo.
-(6) How to execute a Moveit Task Constructor Task in Gazebo Classic?. https://robotics.stackexchange.com/questions/25012/how-to-execute-a-moveit-task-constructor-task-in-gazebo-classic.
-(7) How to Simulate Pick and Place in Gazebo with MoveIt. https://www.youtube.com/watch?v=KAyX4Mf5n2E.
-(8) undefined. https://learn-robotics-with-ros-s-school.teachable.com/p/home.
