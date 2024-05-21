@@ -783,6 +783,8 @@ more
         13-diffdrive.launch
         gazebo.launch
         ```
+      + Gazebo pluginto each URDF file
+      
 
 All these processes are the required elements for this assignment. 
 
