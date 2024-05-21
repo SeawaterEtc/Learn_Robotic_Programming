@@ -1,1 +1,0 @@
-/home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/.private/franka_interface/share/franka_interface/cmake/franka_interfaceConfig-version.cmake

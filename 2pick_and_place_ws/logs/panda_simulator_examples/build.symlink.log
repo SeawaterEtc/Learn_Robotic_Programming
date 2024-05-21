@@ -1,7 +1,0 @@
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/pkgconfig/panda_simulator_examples.pc
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/panda_simulator_examples/cmake.lock
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/panda_simulator_examples/task_space_control_using_sim_only.py
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/panda_simulator_examples/task_space_control_with_fri.py
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/panda_simulator_examples/move_robot.py
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/panda_simulator_examples/cmake/panda_simulator_examplesConfig-version.cmake
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/panda_simulator_examples/cmake/panda_simulator_examplesConfig.cmake

@@ -1,6 +1,0 @@
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/libfranka_state_controller.so
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/pkgconfig/franka_control.pc
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/franka_control/franka_combined_control_node
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/franka_control/franka_control_node
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/franka_control/cmake/franka_controlConfig.cmake
-Symlinking /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/franka_control/cmake/franka_controlConfig-version.cmake

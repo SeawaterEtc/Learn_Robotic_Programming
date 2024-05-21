@@ -1,1 +1,0 @@
-/home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/.private/panda_sim_controllers/share/panda_sim_controllers/cmake/panda_sim_controllersConfig.cmake

@@ -1,7 +1,0 @@
-franka_ros/franka_hw
-/home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/.private/franka_hw/cmake.lock /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/./cmake.lock
-/home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/.private/franka_hw/lib/libfranka_hw.so /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/libfranka_hw.so
-/home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/.private/franka_hw/lib/libfranka_control_services.so /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/libfranka_control_services.so
-/home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/.private/franka_hw/lib/pkgconfig/franka_hw.pc /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/lib/pkgconfig/franka_hw.pc
-/home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/.private/franka_hw/share/franka_hw/cmake/franka_hwConfig-version.cmake /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/franka_hw/cmake/franka_hwConfig-version.cmake
-/home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/.private/franka_hw/share/franka_hw/cmake/franka_hwConfig.cmake /home/ubuntu20-04/ros1_workspaces/2pick_and_place_ws/devel/share/franka_hw/cmake/franka_hwConfig.cmake
