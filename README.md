@@ -682,12 +682,13 @@ robocup14.world xml
 ```
 
 
-## Demo in Class
+## Demo SMB_ws in Class
 The evaluation of this hw is based on showing the new world and the teleop controller. 
 
 after source devel/setup.bash in the ws. 
 
 create four terminals (alt+ shift + d (wsl only))​​​​ then run these in each one and roscore 
+
 ```
 cd ros1_workspaces/smb_ws
 source devel/setup.bash
@@ -875,6 +876,10 @@ I don't have time to get this done.
 
 ## Demo in Class
 
+In this demo, I use URDF in Gazebo and Control the robot
+
+I missed a few requirements add sensors and taking images
+
 ```
 cd ros1_workspaces/tutorials_ws
 source devel/setup.bash
@@ -908,7 +913,46 @@ I think I need to use solidworks and other software to help with this work.
 
 # MOVEIT 
 
-## pick_and_place_ws
+## 1pick_and_place_ws
+
+There are issues with motion planning
+
+Go to the dir
+```shell
+cd ros1_workspaces/pick_and_place_ws
+source devel/setup.bash
+
+```
+
+Load the robot in Gazebo
+```shell
+roslaunch pick_and_place panda_world.launch 
+```
+
+I think, I need to go to this dir? 
+```
+cd ros1_workspaces/pick_and_place_ws/src/panda_simulator
+```
+
+Start MoveIt for motion planning
+```shell
+roslaunch panda_sim_moveit sim_move_group.launch
+```
+
+Run the object detector
+```shell
+rosrun pick_and_place object_detector.py
+```
+
+Run the pick-and-place controller
+```shell
+rosrun pick_and_place pick_and_place_state_machine.py
+```
+
+
+## 2pick_and_place_ws
+
+
 
 .
 

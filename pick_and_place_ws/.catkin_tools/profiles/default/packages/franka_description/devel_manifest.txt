@@ -1,0 +1,5 @@
+franka_ros/franka_description
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/franka_description/cmake.lock /home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/./cmake.lock
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/franka_description/lib/pkgconfig/franka_description.pc /home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/lib/pkgconfig/franka_description.pc
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake /home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/share/franka_description/cmake/franka_descriptionConfig.cmake
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake /home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/share/franka_description/cmake/franka_descriptionConfig-version.cmake

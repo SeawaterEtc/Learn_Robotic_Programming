@@ -1,0 +1,1 @@
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/pick_and_place/share/pick_and_place/cmake/pick_and_placeConfig.cmake

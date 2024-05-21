@@ -1,0 +1,1 @@
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/franka_msgs/include/franka_msgs/SetKFrame.h

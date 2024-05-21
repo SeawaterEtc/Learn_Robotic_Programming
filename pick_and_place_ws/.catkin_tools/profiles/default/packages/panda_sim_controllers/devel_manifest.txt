@@ -1,0 +1,6 @@
+panda_simulator/panda_sim_controllers
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/panda_sim_controllers/cmake.lock /home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/./cmake.lock
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/panda_sim_controllers/lib/libpanda_sim_controllers.so /home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/lib/libpanda_sim_controllers.so
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/panda_sim_controllers/lib/pkgconfig/panda_sim_controllers.pc /home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/lib/pkgconfig/panda_sim_controllers.pc
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/panda_sim_controllers/share/panda_sim_controllers/cmake/panda_sim_controllersConfig.cmake /home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/share/panda_sim_controllers/cmake/panda_sim_controllersConfig.cmake
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/panda_sim_controllers/share/panda_sim_controllers/cmake/panda_sim_controllersConfig-version.cmake /home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/share/panda_sim_controllers/cmake/panda_sim_controllersConfig-version.cmake

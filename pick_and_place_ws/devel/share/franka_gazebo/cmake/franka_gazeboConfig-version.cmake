@@ -1,0 +1,1 @@
+/home/ubuntu20-04/ros1_workspaces/pick_and_place_ws/devel/.private/franka_gazebo/share/franka_gazebo/cmake/franka_gazeboConfig-version.cmake
